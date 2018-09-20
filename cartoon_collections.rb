@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarf_array)
-  dwarf_array.each_with_index do |name, index| 
+  dwarf_array.each.with_index(1) do |name, index| 
     print "#{index}.*#{name}\n" 
   end 
 end
